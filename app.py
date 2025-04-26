@@ -42,3 +42,9 @@ df = pd.DataFrame({
 }) # Dataframe de pandas    
 
 st.dataframe(df) # Dataframe de pandas
+
+
+
+# Sidebar de streamlit 
+st.sidebar.image("https://www.streamlit.io/images/brand/streamlit-mark-color.png", caption="Streamlit", use_column_width=True) # Imagen de streamlit en el sidebar
+st.sidebar.text("Desliza") # Texto en el sidebar
